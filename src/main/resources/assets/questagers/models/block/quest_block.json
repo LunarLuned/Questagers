@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/mangrove_planks",
+    "east": "questagers:block/quest_block_side3",
+    "north": "questagers:block/quest_block_side4",
+    "particle": "questagers:block/quest_block_side3",
+    "south": "questagers:block/quest_block_side1",
+    "up": "questagers:block/quest_block_top",
+    "west": "questagers:block/quest_block_side2"
+  }
+}

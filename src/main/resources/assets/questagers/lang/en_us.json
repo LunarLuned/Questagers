@@ -1,0 +1,9 @@
+{
+  "entity.minecraft.villager.questager": "Questager",
+
+  "block.questagers.quest_block": "Questing Table",
+
+  "item.questagers.base_quest_pin": "Quest Pin",
+  "item.questagers.base_quest_pin.desc": "Empty"
+
+}
