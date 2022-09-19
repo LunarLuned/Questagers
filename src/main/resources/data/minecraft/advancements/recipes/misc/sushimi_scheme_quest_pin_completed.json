@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sushimi_scheme_quest": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "questagers:sushimi_scheme_quest_pin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "questagers:sushimi_scheme_quest_pin_completed"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sushimi_scheme_quest",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "questagers:sushimi_scheme_quest_pin_completed"
+    ]
+  }
+}

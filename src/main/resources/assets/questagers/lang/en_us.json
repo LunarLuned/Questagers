@@ -1,9 +1,106 @@
 {
-  "entity.minecraft.villager.questager": "Questager",
+  "entity.minecraft.villager.beginner_questager": "Beginning Questager",
 
-  "block.questagers.quest_block": "Questing Table",
+  "block.questagers.questing_table": "Novice Questing Table",
+  "block.questagers.apprentice_questing_table": "Apprentice Questing Table",
+  "block.questagers.journeyman_questing_table": "Journeyman Questing Table",
+  "block.questagers.expert_questing_table": "Expert Questing Table",
+  "block.questagers.master_questing_table": "Master Questing Table",
+
+  "itemGroup.questagers.questagers": "Questagers",
+
+  "item.questagers.apprentice_quest_badge": "Quester Badge",
+  "item.questagers.apprentice_quest_badge.desc": "Apprentice",
+
+  "item.questagers.journeyman_quest_badge": "Quester Badge",
+  "item.questagers.journeyman_quest_badge.desc": "Journeyman",
+
+  "item.questagers.expert_quest_badge": "Quester Badge",
+  "item.questagers.expert_quest_badge.desc": "Expert",
+
+  "item.questagers.master_quest_badge": "Quester Badge",
+  "item.questagers.master_quest_badge.desc": "Master",
 
   "item.questagers.base_quest_pin": "Quest Pin",
-  "item.questagers.base_quest_pin.desc": "Empty"
+  "item.questagers.base_quest_pin.desc": "Empty",
+  "item.questagers.base_quest_pin.quest": "No Quest",
+  "item.questagers.base_quest_pin.status": "In Progress",
 
+  "item.questagers.trail_mix_quest_pin": "Quest Pin",
+  "item.questagers.trail_mix_quest_pin.desc": "Trail Mix",
+  "item.questagers.trail_mix_quest_pin.quest": "Find all vanilla seed types",
+  "item.questagers.trail_mix_quest_pin.status": "In Progress",
+  "item.questagers.trail_mix_quest_pin_completed": "Quest Pin",
+  "item.questagers.trail_mix_quest_pin_completed.desc": "Trail Mix",
+  "item.questagers.trail_mix_quest_pin_completed.quest": "Find all vanilla seed types",
+  "item.questagers.trail_mix_quest_pin_completed.status": "Completed",
+
+  "item.questagers.iris_rainbow_quest_pin": "Quest Pin",
+  "item.questagers.iris_rainbow_quest_pin.desc": "Iris' Rainbow",
+  "item.questagers.iris_rainbow_quest_pin.quest": "Find all colors of the rainbow (in wool)",
+  "item.questagers.iris_rainbow_quest_pin.status": "In Progress",
+  "item.questagers.iris_rainbow_quest_pin_completed": "Quest Pin",
+  "item.questagers.iris_rainbow_quest_pin_completed.desc": "Iris' Rainbow",
+  "item.questagers.iris_rainbow_quest_pin_completed.quest": "Find all colors of the rainbow (in wool)",
+  "item.questagers.iris_rainbow_quest_pin_completed.status": "Completed",
+
+  "item.questagers.sushimi_scheme_quest_pin": "Quest Pin",
+  "item.questagers.sushimi_scheme_quest_pin.desc": "Sushimi Scheme",
+  "item.questagers.sushimi_scheme_quest_pin.quest": "Bucket all types of bucketable aquatic animals",
+  "item.questagers.sushimi_scheme_quest_pin.status": "In Progress",
+  "item.questagers.sushimi_scheme_quest_pin_completed": "Quest Pin",
+  "item.questagers.sushimi_scheme_quest_pin_completed.desc": "Sushimi Scheme",
+  "item.questagers.sushimi_scheme_quest_pin_completed.quest": "Bucket all types of bucketable aquatic animals",
+  "item.questagers.sushimi_scheme_quest_pin_completed.status": "Completed",
+
+  "item.questagers.way_deep_down_quest_pin": "Quest Pin",
+  "item.questagers.way_deep_down_quest_pin.desc": "Way Deep Down",
+  "item.questagers.way_deep_down_quest_pin.quest": "Bring an ore of each stone variant",
+  "item.questagers.way_deep_down_quest_pin.status": "In Progress",
+  "item.questagers.way_deep_down_quest_pin_completed": "Quest Pin",
+  "item.questagers.way_deep_down_quest_pin_completed.desc": "Way Deep Down",
+  "item.questagers.way_deep_down_quest_pin_completed.quest": "Bring an ore of each stone variant",
+  "item.questagers.way_deep_down_quest_pin_completed.status": "Completed",
+
+
+
+
+
+
+
+  "item.questagers.very_very_scary_quest_pin": "Quest Pin",
+  "item.questagers.very_very_scary_quest_pin.desc": "Very Very Scary",
+  "item.questagers.very_very_scary_quest_pin.quest": "Find music disc 13 and 11",
+  "item.questagers.very_very_scary_quest_pin.status": "In Progress",
+  "item.questagers.very_very_scary_quest_pin_completed": "Quest Pin",
+  "item.questagers.very_very_scary_quest_pin_completed.desc": "Very Very Scary",
+  "item.questagers.very_very_scary_quest_pin_completed.quest": "Find music disc 13 and 11",
+  "item.questagers.very_very_scary_quest_pin_completed.status": "Completed",
+
+  "item.questagers.enchanting_quest_pin": "Quest Pin",
+  "item.questagers.enchanting_quest_pin.desc": "Enchanting",
+  "item.questagers.enchanting_quest_pin.quest": "Find an Enchanted Golden Apple",
+  "item.questagers.enchanting_quest_pin.status": "In Progress",
+  "item.questagers.enchanting_quest_pin_completed": "Quest Pin",
+  "item.questagers.enchanting_quest_pin_completed.desc": "Enchanting",
+  "item.questagers.enchanting_quest_pin_completed.quest": "Find an Enchanted Golden Apple",
+  "item.questagers.enchanting_quest_pin_completed.status": "Completed",
+
+  "item.questagers.way_way_deeper_down_quest_pin": "Quest Pin",
+  "item.questagers.way_way_deeper_down_quest_pin.desc": "Way Way Deeper Down",
+  "item.questagers.way_way_deeper_down_quest_pin.quest": "Bring an ore of each deepslate variant",
+  "item.questagers.way_way_deeper_down_quest_pin.status": "In Progress",
+  "item.questagers.way_way_deeper_down_quest_pin_completed": "Quest Pin",
+  "item.questagers.way_way_deeper_down_quest_pin_completed.desc": "Way Way Deeper Down",
+  "item.questagers.way_way_deeper_down_quest_pin_completed.quest": "Bring an ore of each deepslate variant",
+  "item.questagers.way_way_deeper_down_quest_pin_completed.status": "Completed",
+
+  "item.questagers.bastion_busting_quest_pin": "Quest Pin",
+  "item.questagers.bastion_busting_quest_pin.desc": "Bastion Busting",
+  "item.questagers.bastion_busting_quest_pin.quest": "Go to a bastion and get some nether loot",
+  "item.questagers.bastion_busting_quest_pin.status": "In Progress",
+  "item.questagers.bastion_busting_quest_pin_completed": "Quest Pin",
+  "item.questagers.bastion_busting_quest_pin_completed.desc": "Bastion Busting",
+  "item.questagers.bastion_busting_quest_pin_completed.quest": "Go to a bastion and get some nether loot",
+  "item.questagers.bastion_busting_quest_pin_completed.status": "Completed"
 }

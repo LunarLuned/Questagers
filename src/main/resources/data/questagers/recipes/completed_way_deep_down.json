@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ore"
+    },
+    {
+      "item": "minecraft:iron_ore"
+    },
+    {
+      "item": "minecraft:coal_ore"
+    },
+    {
+      "item": "minecraft:lapis_ore"
+    },
+    {
+      "item": "questagers:way_deep_down_quest_pin"
+    },
+    {
+      "item": "minecraft:redstone_ore"
+    },
+    {
+      "item": "minecraft:diamond_ore"
+    },
+    {
+      "item": "minecraft:emerald_ore"
+    },
+    {
+      "item": "minecraft:copper_ore"
+    }
+  ],
+  "result": {
+    "item": "questagers:way_deep_down_quest_pin_completed",
+    "count": 1
+  }
+}

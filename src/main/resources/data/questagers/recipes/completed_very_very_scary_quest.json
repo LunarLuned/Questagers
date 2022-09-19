@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:music_disc_11"
+    },
+    {
+      "item": "minecraft:music_disc_13"
+    },
+    {
+      "item": "questagers:very_very_scary_quest_pin"
+    }
+  ],
+  "result": {
+    "item": "questagers:very_very_scary_quest_pin_completed",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "questagers:block/questing_table_bottom",
+    "east": "questagers:block/questing_table_side3",
+    "north": "questagers:block/questing_table_side3",
+    "particle": "questagers:block/questing_table_side3",
+    "south": "questagers:block/journeyman_questing_table_side1",
+    "up": "questagers:block/questing_table_top",
+    "west": "questagers:block/questing_table_side2"
+  }
+}

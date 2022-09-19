@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "questagers:block/apprentice_questing_table"
+    }
+  }
+}

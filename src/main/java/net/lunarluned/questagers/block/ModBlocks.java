@@ -15,8 +15,25 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block QUEST_BLOCK = registerBlock("quest_block",
-            new Block(FabricBlockSettings.of(Material.WOOD).strength(1.5f).requiresTool().sounds(BlockSoundGroup.WOOD)), ModItemGroup.QUESTAGERS);
+    public static final Block QUESTING_TABLE = registerBlock("questing_table",
+    new Block(FabricBlockSettings.of(Material.WOOD)
+    .strength(1.5f).requiresTool().sounds(BlockSoundGroup.WOOD)), ModItemGroup.QUESTAGERS);
+
+    public static final Block APPRENTICE_QUESTING_TABLE = registerBlock("apprentice_questing_table",
+    new Block(FabricBlockSettings.of(Material.WOOD)
+    .strength(1.5f).requiresTool().sounds(BlockSoundGroup.WOOD)), ModItemGroup.QUESTAGERS);
+
+    public static final Block JOURNEYMAN_QUESTING_TABLE = registerBlock("journeyman_questing_table",
+    new Block(FabricBlockSettings.of(Material.WOOD)
+    .strength(1.5f).requiresTool().sounds(BlockSoundGroup.WOOD)), ModItemGroup.QUESTAGERS);
+
+    public static final Block EXPERT_QUESTING_TABLE = registerBlock("expert_questing_table",
+    new Block(FabricBlockSettings.of(Material.WOOD)
+    .strength(1.5f).requiresTool().sounds(BlockSoundGroup.WOOD)), ModItemGroup.QUESTAGERS);
+
+    public static final Block MASTER_QUESTING_TABLE = registerBlock("master_questing_table",
+    new Block(FabricBlockSettings.of(Material.WOOD)
+    .strength(1.5f).requiresTool().sounds(BlockSoundGroup.WOOD)), ModItemGroup.QUESTAGERS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

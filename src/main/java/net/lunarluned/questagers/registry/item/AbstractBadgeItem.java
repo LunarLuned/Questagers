@@ -11,13 +11,10 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class QuestPinItem extends Item {
-
-
-    public QuestPinItem(Settings settings) {
+public class AbstractBadgeItem extends Item {
+    public AbstractBadgeItem(Settings settings) {
         super(settings);
     }
-
 
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(this.getDescription().formatted(Formatting.GRAY));

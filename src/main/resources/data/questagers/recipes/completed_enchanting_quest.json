@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "questagers:enchanting_quest_pin"
+    }
+  ],
+  "result": {
+    "item": "questagers:enchanting_quest_pin_completed",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "questagers:block/master_questing_table"
+    }
+  }
+}

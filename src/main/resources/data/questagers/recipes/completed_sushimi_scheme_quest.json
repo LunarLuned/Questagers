@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cod_bucket"
+    },
+    {
+      "item": "minecraft:salmon_bucket"
+    },
+    {
+      "item": "minecraft:pufferfish_bucket"
+    },
+    {
+      "item": "minecraft:tadpole_bucket"
+    },
+    {
+      "item": "questagers:sushimi_scheme_quest_pin"
+    },
+    {
+      "item": "minecraft:tropical_fish_bucket"
+    },
+    {
+      "item": "minecraft:axolotl_bucket"
+    }
+  ],
+  "result": {
+    "item": "questagers:sushimi_scheme_quest_pin_completed",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:red_wool"
+    },
+    {
+      "item": "minecraft:orange_wool"
+    },
+    {
+      "item": "minecraft:yellow_wool"
+    },
+    {
+      "item": "minecraft:green_wool"
+    },
+    {
+      "item": "questagers:iris_rainbow_quest_pin"
+    },
+    {
+      "item": "minecraft:blue_wool"
+    },
+    {
+      "item": "minecraft:purple_wool"
+    },
+    {
+      "item": "minecraft:magenta_wool"
+    }
+  ],
+  "result": {
+    "item": "questagers:iris_rainbow_quest_pin_completed",
+    "count": 1
+  }
+}

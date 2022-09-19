@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "DD",
+    "DD"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "D": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "result": {
+    "item": "questagers:questing_table",
+    "count": 1
+  }
+}

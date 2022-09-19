@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_axe"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "questagers:bastion_busting_quest_pin"
+    },
+    {
+      "item": "minecraft:gilded_blackstone"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "item": "minecraft:chain"
+    },
+    {
+      "item": "minecraft:bone_block"
+    }
+  ],
+  "result": {
+    "item": "questagers:bastion_busting_quest_pin_completed",
+    "count": 1
+  }
+}
