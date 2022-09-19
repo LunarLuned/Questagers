@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "questagers:apprentice_questing_table"
+  },
+  "addition": {
+    "item": "questagers:journeyman_quest_badge"
+  },
+  "result": {
+    "item": "questagers:journeyman_questing_table"
+  }
+}

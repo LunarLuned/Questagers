@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "questagers:quest_station"
+    "questagers:quest_station",
+    "questagers:apprentice_quest_station"
   ]
 }

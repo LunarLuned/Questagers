@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "questagers:journeyman_questing_table"
+  },
+  "addition": {
+    "item": "questagers:expert_quest_badge"
+  },
+  "result": {
+    "item": "questagers:expert_questing_table"
+  }
+}

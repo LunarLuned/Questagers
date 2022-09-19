@@ -1,5 +1,7 @@
 {
-  "entity.minecraft.villager.beginner_questager": "Beginning Questager",
+  "entity.minecraft.villager.beginner_questager": "Novice Questager",
+  "entity.minecraft.villager.apprentice_questager": "Apprentice Questager",
+  "entity.minecraft.villager.journeyman_questager": "Journeyman Questager",
 
   "block.questagers.questing_table": "Novice Questing Table",
   "block.questagers.apprentice_questing_table": "Apprentice Questing Table",
