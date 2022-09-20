@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#EN",
+    "SpD",
+    "FAU"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:granite"
+    },
+    "E": {
+      "item": "minecraft:end_stone"
+    },
+    "N": {
+      "item": "minecraft:netherrack"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone"
+    },
+    "p": {
+      "item": "questagers:back_to_earth_part_i_quest_pin"
+    },
+    "D": {
+      "item": "minecraft:diorite"
+    },
+    "F": {
+      "item": "minecraft:stone"
+    },
+    "A": {
+      "item": "minecraft:andesite"
+    },
+    "U": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "result": {
+    "item": "questagers:back_to_earth_part_i_quest_pin_completed",
+    "count": 1
+  }
+}

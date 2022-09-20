@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_trail_mix_quest": {
+    "has_that_feeling_is_freeing_quest_pin": {
       "conditions": {
         "items": [
           {
             "items": [
-              "questagers:trail_mix_quest_pin"
+              "questagers:that_feeling_is_freeing_quest_pin"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "questagers:trail_mix_quest_pin_completed"
+        "recipe": "questagers:that_feeling_is_freeing_quest_pin_completed"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_trail_mix_quest",
+      "has_that_feeling_is_freeing_quest_pin",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "questagers:trail_mix_quest_pin_completed"
+      "questagers:completed_that_feeling_is_freeing_quest"
     ]
   }
 }

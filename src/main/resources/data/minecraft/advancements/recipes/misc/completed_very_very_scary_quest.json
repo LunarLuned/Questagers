@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_very_very_scary_quest": {
+    "has_very_very_scary_quest_pin": {
       "conditions": {
         "items": [
           {
@@ -22,13 +22,13 @@
   },
   "requirements": [
     [
-      "has_very_very_scary_quest",
+      "has_very_very_scary_quest_pin",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "questagers:very_very_scary_quest_pin_completed"
+      "questagers:completed_very_very_scary_quest"
     ]
   }
 }

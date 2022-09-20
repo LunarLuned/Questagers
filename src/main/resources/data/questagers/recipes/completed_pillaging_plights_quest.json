@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:white_banner"
+    },
+    {
+      "item": "minecraft:saddle"
+    },
+    {
+      "item": "questagers:pillaging_plights_quest_pin"
+    },
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "minecraft:crossbow"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "result": {
+    "item": "questagers:pillaging_plights_quest_pin_completed",
+    "count": 1
+  }
+}

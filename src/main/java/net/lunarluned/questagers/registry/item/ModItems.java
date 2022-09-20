@@ -14,6 +14,10 @@ public class ModItems {
     new AbstractBadgeItem(new FabricItemSettings()
     .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.COMMON)));
 
+    public static final Item DRAGON_MEDALLION = registerItem("dragon_medallion",
+    new Item(new FabricItemSettings()
+    .group(ModItemGroup.QUESTAGERS).maxCount(64).rarity(Rarity.UNCOMMON)));
+
     // quest badges
 
     public static final Item APPRENTICE_QUEST_BADGE = registerItem("apprentice_quest_badge",
@@ -99,6 +103,78 @@ public class ModItems {
     public static final Item BASTION_BUSTING_QUEST_PIN_COMPLETED = registerItem("bastion_busting_quest_pin_completed",
     new AbstractQuestPinItem(new FabricItemSettings()
     .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.COMMON)));
+
+    // journeyman quests
+
+    public static final Item BLAZING_BAD_QUEST_PIN = registerItem("blazing_bad_quest_pin",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.UNCOMMON)));
+
+    public static final Item BLAZING_BAD_QUEST_PIN_COMPLETED = registerItem("blazing_bad_quest_pin_completed",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.UNCOMMON)));
+
+    public static final Item BREWING_BRILLIANCE_QUEST_PIN = registerItem("brewing_brilliance_quest_pin",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.UNCOMMON)));
+
+    public static final Item BREWING_BRILLIANCE_QUEST_PIN_COMPLETED = registerItem("brewing_brilliance_quest_pin_completed",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.UNCOMMON)));
+
+    public static final Item DEEP_DARK_DISCS_QUEST_PIN = registerItem("deep_dark_discs_quest_pin",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.UNCOMMON)));
+
+    public static final Item DEEP_DARK_DISCS_QUEST_PIN_COMPLETED = registerItem("deep_dark_discs_quest_pin_completed",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.UNCOMMON)));
+
+    public static final Item PILLAGING_PLIGHTS_QUEST_PIN = registerItem("pillaging_plights_quest_pin",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.UNCOMMON)));
+
+    public static final Item PILLAGING_PLIGHTS_QUEST_PIN_COMPLETED = registerItem("pillaging_plights_quest_pin_completed",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.UNCOMMON)));
+
+    // expert quests
+
+    public static final Item SACK_OF_SCULK_QUEST_PIN = registerItem("sack_of_sculk_quest_pin",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.COMMON)));
+
+    public static final Item SACK_OF_SCULK_QUEST_PIN_COMPLETED = registerItem("sack_of_sculk_quest_pin_completed",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.COMMON)));
+
+    public static final Item WIDDLE_AND_WITHER_QUEST_PIN = registerItem("widdle_and_wither_quest_pin",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.COMMON)));
+
+    public static final Item WIDDLE_AND_WITHER_QUEST_PIN_COMPLETED = registerItem("widdle_and_wither_quest_pin_completed",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.COMMON)));
+
+    public static final Item THAT_FEELING_IS_FREEING_QUEST_PIN = registerItem("that_feeling_is_freeing_quest_pin",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.COMMON)));
+
+    public static final Item THAT_FEELING_IS_FREEING_QUEST_PIN_COMPLETED = registerItem("that_feeling_is_freeing_quest_pin_completed",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.COMMON)));
+
+    public static final Item BACK_TO_EARTH_PART_I_QUEST_PIN = registerItem("back_to_earth_part_i_quest_pin",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.COMMON)));
+
+    public static final Item BACK_TO_EARTH_PART_I_QUEST_PIN_COMPLETED = registerItem("back_to_earth_part_i_quest_pin_completed",
+            new AbstractQuestPinItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.COMMON)));
+
+    public static final Item BACK_TO_EARTH_PART_I_RECIEPT = registerItem("back_to_earth_part_i_reciept",
+            new AbstractRecieptItem(new FabricItemSettings()
+                    .group(ModItemGroup.QUESTAGERS).maxCount(1).rarity(Rarity.COMMON)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Questagers.MOD_ID, name), item);

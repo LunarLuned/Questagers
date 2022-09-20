@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_way_way_deeper_down_quest": {
+    "has_widdle_and_wither_quest_pin": {
       "conditions": {
         "items": [
           {
             "items": [
-              "questagers:way_way_deeper_down_quest_pin"
+              "questagers:widdle_and_wither_quest_pin"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "questagers:way_way_deeper_down_quest_pin_completed"
+        "recipe": "questagers:widdle_and_wither_quest_pin_completed"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_way_way_deeper_down_quest",
+      "has_widdle_and_wither_quest_pin",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "questagers:way_way_deeper_down_quest_pin_completed"
+      "questagers:completed_widdle_and_wither_quest"
     ]
   }
 }

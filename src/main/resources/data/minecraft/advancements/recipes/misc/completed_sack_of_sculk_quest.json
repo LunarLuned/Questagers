@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_enchanting_quest": {
+    "has_sack_of_sculk_quest_pin": {
       "conditions": {
         "items": [
           {
             "items": [
-              "questagers:enchanting_quest_pin"
+              "questagers:sack_of_sculk_quest_pin"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "questagers:enchanting_quest_pin_completed"
+        "recipe": "questagers:sack_of_sculk_quest_pin_completed"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_enchanting_quest",
+      "has_sack_of_sculk_quest_pin",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "questagers:enchanting_quest_pin_completed"
+      "questagers:completed_sack_of_sculk_quest"
     ]
   }
 }

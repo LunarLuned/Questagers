@@ -2,6 +2,8 @@
   "entity.minecraft.villager.beginner_questager": "Novice Questager",
   "entity.minecraft.villager.apprentice_questager": "Apprentice Questager",
   "entity.minecraft.villager.journeyman_questager": "Journeyman Questager",
+  "entity.minecraft.villager.expert_questager": "Expert Questager",
+  "entity.minecraft.villager.master_questager": "Master Questager",
 
   "block.questagers.questing_table": "Novice Questing Table",
   "block.questagers.apprentice_questing_table": "Apprentice Questing Table",
@@ -104,5 +106,88 @@
   "item.questagers.bastion_busting_quest_pin_completed": "Quest Pin",
   "item.questagers.bastion_busting_quest_pin_completed.desc": "Bastion Busting",
   "item.questagers.bastion_busting_quest_pin_completed.quest": "Go to a bastion and get some nether loot",
-  "item.questagers.bastion_busting_quest_pin_completed.status": "Completed"
+  "item.questagers.bastion_busting_quest_pin_completed.status": "Completed",
+
+
+
+
+
+  "item.questagers.blazing_bad_quest_pin": "Quest Pin",
+  "item.questagers.blazing_bad_quest_pin.desc": "Blazing Bad",
+  "item.questagers.blazing_bad_quest_pin.quest": "Go get blaze rods, quartz, and powder. To cook.",
+  "item.questagers.blazing_bad_quest_pin.status": "In Progress",
+  "item.questagers.blazing_bad_quest_pin_completed": "Quest Pin",
+  "item.questagers.blazing_bad_quest_pin_completed.desc": "Blazing Bad",
+  "item.questagers.blazing_bad_quest_pin_completed.quest": "Go get blaze rods, quartz, and powder. To cook.",
+  "item.questagers.blazing_bad_quest_pin_completed.status": "Completed",
+
+  "item.questagers.brewing_brilliance_quest_pin": "Quest Pin",
+  "item.questagers.brewing_brilliance_quest_pin.desc": "Brewing Brilliance",
+  "item.questagers.brewing_brilliance_quest_pin.quest": "Bring out your best brewing basics.",
+  "item.questagers.brewing_brilliance_quest_pin.status": "In Progress",
+  "item.questagers.brewing_brilliance_quest_pin_completed": "Quest Pin",
+  "item.questagers.brewing_brilliance_quest_pin_completed.desc": "Brewing Brilliance",
+  "item.questagers.brewing_brilliance_quest_pin_completed.quest": "Bring out your best brewing basics.",
+  "item.questagers.brewing_brilliance_quest_pin_completed.status": "Completed",
+
+  "item.questagers.deep_dark_discs_quest_pin": "Quest Pin",
+  "item.questagers.deep_dark_discs_quest_pin.desc": "Deep Dark Discs",
+  "item.questagers.deep_dark_discs_quest_pin.quest": "Recreate Disc 5, and find Pigstep",
+  "item.questagers.deep_dark_discs_quest_pin.status": "In Progress",
+  "item.questagers.deep_dark_discs_quest_pin_completed": "Quest Pin",
+  "item.questagers.deep_dark_discs_quest_pin_completed.desc": "Deep Dark Discs",
+  "item.questagers.deep_dark_discs_quest_pin_completed.quest": "Recreate Disc 5, and find Pigstep",
+  "item.questagers.deep_dark_discs_quest_pin_completed.status": "Completed",
+
+  "item.questagers.pillaging_plights_quest_pin": "Quest Pin",
+  "item.questagers.pillaging_plights_quest_pin.desc": "Pillaging Plights",
+  "item.questagers.pillaging_plights_quest_pin.quest": "Defeat and save a village from a raid.",
+  "item.questagers.pillaging_plights_quest_pin.status": "In Progress",
+  "item.questagers.pillaging_plights_quest_pin_completed": "Quest Pin",
+  "item.questagers.pillaging_plights_quest_pin_completed.desc": "Pillaging Plights",
+  "item.questagers.pillaging_plights_quest_pin_completed.quest": "Defeat and save a village from a raid.",
+  "item.questagers.pillaging_plights_quest_pin_completed.status": "Completed",
+
+
+
+
+
+  "item.questagers.sack_of_sculk_quest_pin": "Quest Pin",
+  "item.questagers.sack_of_sculk_quest_pin.desc": "Sack of Sculk",
+  "item.questagers.sack_of_sculk_quest_pin.quest": "Collect one of each Sculk Block, and an echo shard.",
+  "item.questagers.sack_of_sculk_quest_pin.status": "In Progress",
+  "item.questagers.sack_of_sculk_quest_pin_completed": "Quest Pin",
+  "item.questagers.sack_of_sculk_quest_pin_completed.desc": "Sack of Sculk",
+  "item.questagers.sack_of_sculk_quest_pin_completed.quest": "Collect one of each Sculk Block, and an echo shard.",
+  "item.questagers.sack_of_sculk_quest_pin_completed.status": "Completed",
+
+  "item.questagers.widdle_and_wither_quest_pin": "Quest Pin",
+  "item.questagers.widdle_and_wither_quest_pin.desc": "Widdle and Wither",
+  "item.questagers.widdle_and_wither_quest_pin.quest": "Battle and Defeat the Wither, while getting collateral damage hurt.",
+  "item.questagers.widdle_and_wither_quest_pin.status": "In Progress",
+  "item.questagers.widdle_and_wither_quest_pin_completed": "Quest Pin",
+  "item.questagers.widdle_and_wither_quest_pin_completed.desc": "Widdle and Wither",
+  "item.questagers.widdle_and_wither_quest_pin_completed.quest": "Defeat the Wither, while getting collateral damage hurt.",
+  "item.questagers.widdle_and_wither_quest_pin_completed.status": "Completed",
+
+  "item.questagers.that_feeling_is_freeing_quest_pin": "Quest Pin",
+  "item.questagers.that_feeling_is_freeing_quest_pin.desc": "That Feeling is Freeing",
+  "item.questagers.that_feeling_is_freeing_quest_pin.quest": "Free The End",
+  "item.questagers.that_feeling_is_freeing_quest_pin.status": "In Progress",
+  "item.questagers.that_feeling_is_freeing_quest_pin_completed": "Quest Pin",
+  "item.questagers.that_feeling_is_freeing_quest_pin_completed.desc": "That Feeling is Freeing",
+  "item.questagers.that_feeling_is_freeing_quest_pin_completed.quest": "Free The End",
+  "item.questagers.that_feeling_is_freeing_quest_pin_completed.status": "Completed",
+
+  "item.questagers.back_to_earth_part_i_quest_pin": "Quest Pin",
+  "item.questagers.back_to_earth_part_i_quest_pin.desc": "Back To Earth Part I",
+  "item.questagers.back_to_earth_part_i_quest_pin.quest": "Collect each version of Stone in all 3 dimensions.",
+  "item.questagers.back_to_earth_part_i_quest_pin.status": "In Progress",
+  "item.questagers.back_to_earth_part_i_quest_pin_completed": "Quest Pin",
+  "item.questagers.back_to_earth_part_i_quest_pin_completed.desc": "Back To Earth Part I",
+  "item.questagers.back_to_earth_part_i_quest_pin_completed.quest": "Collect each version of Stone in all 3 dimensions.",
+  "item.questagers.back_to_earth_part_i_quest_pin_completed.status": "Completed",
+
+  "item.questagers.back_to_earth_part_i_reciept": "Reciept",
+  "item.questagers.back_to_earth_part_i_reciept.desc": "Bring to Master Questager for Back to Earth Part II."
 }

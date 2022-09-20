@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "questagers:widdle_and_wither_quest_pin"
+    }
+  ],
+  "result": {
+    "item": "questagers:widdle_and_wither_quest_pin_completed",
+    "count": 1
+  }
+}

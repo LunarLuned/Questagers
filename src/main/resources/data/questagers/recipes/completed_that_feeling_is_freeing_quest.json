@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:elytra"
+    },
+    {
+      "item": "questagers:that_feeling_is_freeing_quest_pin"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "questagers:dragon_medallion"
+    }
+  ],
+  "result": {
+    "item": "questagers:that_feeling_is_freeing_quest_pin_completed",
+    "count": 1
+  }
+}

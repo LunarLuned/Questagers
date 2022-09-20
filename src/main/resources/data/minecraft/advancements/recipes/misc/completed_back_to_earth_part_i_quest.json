@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_way_deep_down_quest": {
+    "has_back_to_earth_part_i_quest_pin": {
       "conditions": {
         "items": [
           {
             "items": [
-              "questagers:way_deep_down_quest_pin"
+              "questagers:back_to_earth_part_i_quest_pin"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "questagers:way_deep_down_quest_pin_completed"
+        "recipe": "questagers:back_to_earth_part_i_quest_pin_completed"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_way_deep_down_quest",
+      "has_back_to_earth_part_i_quest_pin",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "questagers:way_deep_down_quest_pin_completed"
+      "questagers:completed_back_to_earth_part_i_quest"
     ]
   }
 }

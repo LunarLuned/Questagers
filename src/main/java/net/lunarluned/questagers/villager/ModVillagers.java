@@ -29,6 +29,14 @@ public class ModVillagers {
     public static final VillagerProfession APPRENTICE_QUESTAGER = registerProfession("apprentice_questager",
             RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Questagers.MOD_ID, "apprentice_quest_station")));
 
+    public static final PointOfInterestType JOURNEYMAN_QUEST_STATION = registerPOI("journeyman_quest_station", ModBlocks.JOURNEYMAN_QUESTING_TABLE);
+    public static final VillagerProfession JOURNEYMAN_QUESTAGER = registerProfession("journeyman_questager",
+            RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Questagers.MOD_ID, "journeyman_quest_station")));
+
+    public static final PointOfInterestType EXPERT_QUEST_STATION = registerPOI("expert_quest_station", ModBlocks.EXPERT_QUESTING_TABLE);
+    public static final VillagerProfession EXPERT_QUESTAGER = registerProfession("expert_questager",
+            RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Questagers.MOD_ID, "expert_quest_station")));
+
     public static VillagerProfession registerProfession(String name, RegistryKey<PointOfInterestType> type) {
         return Registry.register(Registry.VILLAGER_PROFESSION, new Identifier(Questagers.MOD_ID, name),
                 VillagerProfessionBuilder.create().id(new Identifier(Questagers.MOD_ID, name)).workstation(type)
@@ -173,6 +181,132 @@ public class ModVillagers {
                     )));
                 });
 
+
+        //journeyman questager
+
+        TradeOfferHelper.registerVillagerOffers(JOURNEYMAN_QUESTAGER,1,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 25),
+                            new ItemStack(ModItems.BLAZING_BAD_QUEST_PIN, 1),
+                            1, 1, 0.02f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.BLAZING_BAD_QUEST_PIN_COMPLETED, 1),
+                            new ItemStack(Items.EMERALD, 40),
+                            1, 15, 0.00f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(JOURNEYMAN_QUESTAGER,2,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 30),
+                            new ItemStack(ModItems.BREWING_BRILLIANCE_QUEST_PIN, 1),
+                            1, 1, 0.02f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.BREWING_BRILLIANCE_QUEST_PIN_COMPLETED, 1),
+                            new ItemStack(Items.EMERALD, 50),
+                            1, 75, 0.00f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(JOURNEYMAN_QUESTAGER,3,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 24),
+                            new ItemStack(ModItems.DEEP_DARK_DISCS_QUEST_PIN, 1),
+                            1, 1, 0.00f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.DEEP_DARK_DISCS_QUEST_PIN_COMPLETED, 1),
+                            new ItemStack(Blocks.EMERALD_BLOCK, 7),
+                            1, 155, 0.00f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(JOURNEYMAN_QUESTAGER,4,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 30),
+                            new ItemStack(ModItems.PILLAGING_PLIGHTS_QUEST_PIN, 1),
+                            1, 1, 0.02f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.PILLAGING_PLIGHTS_QUEST_PIN_COMPLETED, 1),
+                            new ItemStack(Blocks.EMERALD_BLOCK, 9),
+                            1, 250, 0.00f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(JOURNEYMAN_QUESTAGER,5,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 48),
+                            new ItemStack(ModItems.EXPERT_QUEST_BADGE, 1),
+                            1, 1, 0.02f
+                    )));
+                });
+
+        //expert questager
+
+        TradeOfferHelper.registerVillagerOffers(EXPERT_QUESTAGER,1,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Blocks.EMERALD_BLOCK, 5),
+                            new ItemStack(ModItems.SACK_OF_SCULK_QUEST_PIN, 1),
+                            1, 1, 0.02f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.SACK_OF_SCULK_QUEST_PIN_COMPLETED, 1),
+                            new ItemStack(Blocks.EMERALD_BLOCK, 9),
+                            1, 15, 0.00f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(EXPERT_QUESTAGER,2,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Blocks.EMERALD_BLOCK, 7),
+                            new ItemStack(ModItems.WIDDLE_AND_WITHER_QUEST_PIN, 1),
+                            1, 1, 0.02f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.WIDDLE_AND_WITHER_QUEST_PIN_COMPLETED, 1),
+                            new ItemStack(Blocks.EMERALD_BLOCK, 14),
+                            1, 75, 0.00f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(EXPERT_QUESTAGER,3,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Blocks.EMERALD_BLOCK, 8),
+                            new ItemStack(ModItems.THAT_FEELING_IS_FREEING_QUEST_PIN, 1),
+                            1, 1, 0.00f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.THAT_FEELING_IS_FREEING_QUEST_PIN_COMPLETED, 1),
+                            new ItemStack(Blocks.EMERALD_BLOCK, 18),
+                            1, 155, 0.00f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(EXPERT_QUESTAGER,4,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 30),
+                            new ItemStack(ModItems.BACK_TO_EARTH_PART_I_QUEST_PIN, 1),
+                            1, 250, 0.02f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(EXPERT_QUESTAGER,5,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Blocks.EMERALD_BLOCK, 2),
+                            new ItemStack(ModItems.MASTER_QUEST_BADGE, 1),
+                            1, 1, 0.02f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.BACK_TO_EARTH_PART_I_QUEST_PIN_COMPLETED, 1),
+                            new ItemStack(ModItems.BACK_TO_EARTH_PART_I_RECIEPT, 1),
+                            1, 1, 0.00f
+                    )));
+                });
 
     }
 }
