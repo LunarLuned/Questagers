@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:tuff"
+    },
+    {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:calcite"
+    },
+    {
+      "item": "questagers:back_to_earth_part_ii_quest_pin"
+    },
+    {
+      "item": "minecraft:sandstone"
+    },
+    {
+      "item": "minecraft:prismarine"
+    },
+    {
+      "item": "minecraft:red_sandstone"
+    },
+    {
+      "item": "minecraft:blackstone"
+    }
+  ],
+  "result": {
+    "item": "questagers:back_to_earth_part_ii_quest_pin_completed",
+    "count": 1
+  }
+}

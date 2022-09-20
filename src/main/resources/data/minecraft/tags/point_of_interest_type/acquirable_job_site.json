@@ -4,6 +4,7 @@
     "questagers:quest_station",
     "questagers:apprentice_quest_station",
     "questagers:journeyman_quest_station",
-    "questagers:expert_quest_station"
+    "questagers:expert_quest_station",
+    "questagers:master_quest_station"
   ]
 }

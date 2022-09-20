@@ -37,6 +37,10 @@ public class ModVillagers {
     public static final VillagerProfession EXPERT_QUESTAGER = registerProfession("expert_questager",
             RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Questagers.MOD_ID, "expert_quest_station")));
 
+    public static final PointOfInterestType MASTER_QUEST_STATION = registerPOI("master_quest_station", ModBlocks.MASTER_QUESTING_TABLE);
+    public static final VillagerProfession MASTER_QUESTAGER = registerProfession("master_questager",
+            RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Questagers.MOD_ID, "master_quest_station")));
+
     public static VillagerProfession registerProfession(String name, RegistryKey<PointOfInterestType> type) {
         return Registry.register(Registry.VILLAGER_PROFESSION, new Identifier(Questagers.MOD_ID, name),
                 VillagerProfessionBuilder.create().id(new Identifier(Questagers.MOD_ID, name)).workstation(type)
@@ -305,6 +309,74 @@ public class ModVillagers {
                             new ItemStack(ModItems.BACK_TO_EARTH_PART_I_QUEST_PIN_COMPLETED, 1),
                             new ItemStack(ModItems.BACK_TO_EARTH_PART_I_RECIEPT, 1),
                             1, 1, 0.00f
+                    )));
+                });
+
+        //master questager
+
+        TradeOfferHelper.registerVillagerOffers(MASTER_QUESTAGER,1,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.BACK_TO_EARTH_PART_I_RECIEPT, 1),
+                            new ItemStack(ModItems.BACK_TO_EARTH_PART_II_QUEST_PIN, 1),
+                            1, 1, 0.02f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.BACK_TO_EARTH_PART_II_QUEST_PIN_COMPLETED, 1),
+                            new ItemStack(Blocks.EMERALD_BLOCK, 25),
+                            1, 15, 0.00f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(MASTER_QUESTAGER,2,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Blocks.EMERALD_BLOCK, 8),
+                            new ItemStack(ModItems.RICH_IN_MINERALS_QUEST_PIN, 1),
+                            1, 1, 0.02f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.RICH_IN_MINERALS_QUEST_PIN_COMPLETED, 1),
+                            new ItemStack(Blocks.EMERALD_BLOCK, 20),
+                            1, 75, 0.00f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(MASTER_QUESTAGER,3,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Blocks.EMERALD_BLOCK, 10),
+                            new ItemStack(ModItems.ONE_MORE_TIME_QUEST_PIN, 1),
+                            1, 1, 0.00f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.ONE_MORE_TIME_QUEST_PIN_COMPLETED, 1),
+                            new ItemStack(Blocks.EMERALD_BLOCK, 35),
+                            1, 155, 0.00f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(MASTER_QUESTAGER,4,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 30),
+                            new ItemStack(ModItems.THE_ULTIMATE_SACRIFICE_QUEST_PIN, 1),
+                            1, 250, 0.02f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.THE_ULTIMATE_SACRIFICE_QUEST_PIN_COMPLETED, 1),
+                            new ItemStack(ModItems.THE_ULTIMATE_SACRIFICE_RECIEPT, 1),
+                            1, 1, 0.00f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(MASTER_QUESTAGER,5,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.THE_ULTIMATE_SACRIFICE_RECIEPT, 1),
+                            new ItemStack(Blocks.EMERALD_BLOCK, 64),
+                            1, 1, 0.02f
+                    )));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.THE_ULTIMATE_SACRIFICE_RECIEPT, 1),
+                            new ItemStack(Blocks.DIAMOND_BLOCK, 32),
+                            1, 1, 0.02f
                     )));
                 });
 

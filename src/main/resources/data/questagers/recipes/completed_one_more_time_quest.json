@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "questagers:one_more_time_quest_pin"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    },
+    {
+      "item": "questagers:dragon_medallion"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:white_banner"
+    }
+  ],
+  "result": {
+    "item": "questagers:one_more_time_quest_pin_completed",
+    "count": 1
+  }
+}

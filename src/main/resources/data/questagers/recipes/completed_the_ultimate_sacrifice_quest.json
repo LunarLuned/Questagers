@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:skeleton_skull"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    },
+    {
+      "item": "minecraft:zombie_head"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:dragon_egg"
+    },
+    {
+      "item": "minecraft:creeper_head"
+    },
+    {
+      "item": "questagers:the_ultimate_sacrifice_quest_pin"
+    }
+  ],
+  "result": {
+    "item": "questagers:the_ultimate_sacrifice_quest_pin_completed",
+    "count": 1
+  }
+}

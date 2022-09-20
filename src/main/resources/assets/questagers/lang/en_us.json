@@ -189,5 +189,49 @@
   "item.questagers.back_to_earth_part_i_quest_pin_completed.status": "Completed",
 
   "item.questagers.back_to_earth_part_i_reciept": "Reciept",
-  "item.questagers.back_to_earth_part_i_reciept.desc": "Bring to Master Questager for Back to Earth Part II."
+  "item.questagers.back_to_earth_part_i_reciept.desc": "Bring to Master Questager for Back to Earth Part II.",
+
+
+
+
+
+
+  "item.questagers.back_to_earth_part_ii_quest_pin": "Quest Pin",
+  "item.questagers.back_to_earth_part_ii_quest_pin.desc": "Back To Earth Part II",
+  "item.questagers.back_to_earth_part_ii_quest_pin.quest": "Finish what you started, Collect the last stones.",
+  "item.questagers.back_to_earth_part_ii_quest_pin.status": "In Progress",
+  "item.questagers.back_to_earth_part_ii_quest_pin_completed": "Quest Pin",
+  "item.questagers.back_to_earth_part_ii_quest_pin_completed.desc": "Back To Earth Part II",
+  "item.questagers.back_to_earth_part_ii_quest_pin_completed.quest": "Finish what you started, Collect the last stones.",
+  "item.questagers.back_to_earth_part_ii_quest_pin_completed.status": "Completed",
+
+  "item.questagers.rich_in_minerals_quest_pin": "Quest Pin",
+  "item.questagers.rich_in_minerals_quest_pin.desc": "Rich in Minerals",
+  "item.questagers.rich_in_minerals_quest_pin.quest": "Collect a Block of each mineral in the overworld.",
+  "item.questagers.rich_in_minerals_quest_pin.status": "In Progress",
+  "item.questagers.rich_in_minerals_quest_pin_completed": "Quest Pin",
+  "item.questagers.rich_in_minerals_quest_pin_completed.desc": "Rich in Minerals",
+  "item.questagers.rich_in_minerals_quest_pin_completed.quest": "Collect a Block of each mineral in the overworld.",
+  "item.questagers.rich_in_minerals_quest_pin_completed.status": "Completed",
+
+  "item.questagers.one_more_time_quest_pin": "Quest Pin",
+  "item.questagers.one_more_time_quest_pin.desc": "One More Time",
+  "item.questagers.one_more_time_quest_pin.quest": "Defeat the Wither, Ender Dragon, and a Raid.",
+  "item.questagers.one_more_time_quest_pin.status": "In Progress",
+  "item.questagers.one_more_time_quest_pin_completed": "Quest Pin",
+  "item.questagers.one_more_time_quest_pin_completed.desc": "One More Time",
+  "item.questagers.one_more_time_quest_pin_completed.quest": "Defeat the Wither, Ender Dragon, and a Raid.",
+  "item.questagers.one_more_time_quest_pin_completed.status": "Completed",
+
+  "item.questagers.the_ultimate_sacrifice_quest_pin": "Quest Pin",
+  "item.questagers.the_ultimate_sacrifice_quest_pin.desc": "The Ultimate Sacrifice",
+  "item.questagers.the_ultimate_sacrifice_quest_pin.quest": "Bring the heads of every mob, and the Dragon Egg.",
+  "item.questagers.the_ultimate_sacrifice_quest_pin.status": "In Progress",
+  "item.questagers.the_ultimate_sacrifice_quest_pin_completed": "Quest Pin",
+  "item.questagers.the_ultimate_sacrifice_quest_pin_completed.desc": "The Ultimate Sacrifice",
+  "item.questagers.the_ultimate_sacrifice_quest_pin_completed.quest": "Bring the heads of every mob, and the Dragon Egg.",
+  "item.questagers.the_ultimate_sacrifice_quest_pin_completed.status": "Completed",
+
+  "item.questagers.the_ultimate_sacrifice_reciept": "Reciept",
+  "item.questagers.the_ultimate_sacrifice_reciept.desc": "For The Ultimate Sacrifice"
 }
