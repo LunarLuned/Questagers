@@ -1,3 +1,5 @@
+# THIS IS NOW AN OLD VERSION OF THE MOD. QUESTAGERS, LIKE PECULIA, IS BEING REWRITTEN ENTIRELY.
+
 # Questagers - A fabric mod making vanilla-like quest villagers, adding 5 new villagers!
 
 made by LunarLuned, major help from Ambient_ (or AmbientUnder) for texture work :)
